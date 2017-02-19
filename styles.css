@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+.header form {
+	margin: 1% 0 0.5% 2%;
+	width: 80%;
+	height: 15%;
+	background-color: #FFB3B3;
+	padding: 25px;
+}
+
+input[type=text] {
+    width: 160px;
+    display: inline-block;
+    margin: 10px 20px 10px 0;
+    font-size: 16px;
+}
+
+input[type=email] {
+    width: 160px;
+    display: inline-block;
+    margin: 10px 20px 10px 0;
+    font-size: 16px;
+}
+
+.header input[type=button] {
+    width: 100px;
+    margin: 10px 10px 10px 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #555555;
+    color: #FFB3B3;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 0 0 2%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    width: 20%;
+    padding: 8px 5px 8px 5px;
+}
+ table button {
+ 	float: right;
+ 	padding: 6px;
+ 	margin: 0 7px 0 10px;
+ 	border-radius: 3px;
+ 	border-color: #FFB3B3;
+ 	background-color: #FFB3B3;
+ 	color: #555555;
+
+ }
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.popup {
+	background-color: #f1dcf4;
+	position: absolute;
+	width: 60%;
+	height: 50%;
+    top: 20%;
+    left: 20%;
+    padding: 60px 40px 40px 40px;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+.popup div {
+	padding: 0;
+	margin: 7px 0 10px 40px;
+}
+
+.popup input[type=text] {
+	width: 50%;
+	height: 35px;
+	margin-left: 15px;
+	
+}
+
+.popup input[type=email] {
+	width: 50%;
+	height: 35px;
+	margin-left: 46px;
+}
+
+.popup input[type=button] {
+	width: 22%;
+	margin-left: 30%;
+	margin-top: 30px;
+	padding: 10px;
+}
+
+.popup input[type=submit] {
+	width: 22%;
+	margin-left: 4%;
+	margin-top: 30px;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+

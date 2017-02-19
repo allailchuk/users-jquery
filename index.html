@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <title>Users</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <form id="newUser">
+            First Name: <input type="text" name="FirstName">
+            Last Name: <input type="text" name="LastName">
+            Email: <input type="email" name="Email">
+            <input id ='submitButton' type="button" value="Submit">
+        </form>
+    </div>
+
+    <table id="usersTable">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th> </th>
+        </tr>        
+    </table>
+    
+    <!-- Form window-->
+    <div class="popup" style="display:none">
+        <form id="edit" >
+            <div>First Name: <input type="text" name="firstname"></div>
+            <div>Last Name: <input type="text" name="lastname"></div>
+            <div>Email: <input type="email" name="email"></div>
+            <input class="cancel" type="button" value="Cancel">
+            <input class="submit" type="button" value="Submit">
+            <input id='idbox' type="hidden" name="userId">
+        </form>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
